@@ -1,0 +1,3 @@
+Van egy fogyasztásmérőnk, amelybe beolvasunk egy szót, amely két számból, majd egy kettőspontból és még két számból áll. Pl.: 06:00
+
+A programodnak ki kell írnia, hogy a beolvasott számok az adott percben hány egység áramot fogyasztanak, ha tudjuk, hogy egy pont percenként 2 egység, egy csík pedig percenként 3 egység áramot fogyaszt.
