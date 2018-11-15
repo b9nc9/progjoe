@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-''' HA EGY ÉRTÉK KISEBB MINT A KÖVETKEZŐ, AKKOR KIVONÓDIK; HA NEM, AKKOR HOZZÁADÓDIK'''
-
 def ellenoriz(romai): #MINIMÁLIS ELLENŐRZÉS
     kovetkezo = romai[0]
     szamlal = 0
