@@ -12,7 +12,11 @@
         
         </form>
         <?php
-            echo "<p>".$_POST["szoveg"]."</p>";
+            $szoveg = "";
+            if(isset($_POST["szoveg"])){
+                $szoveg = $_POST["szoveg"];
+            }
+            echo "<p>".$szoveg."</p>";
         ?>
     
     </body>
