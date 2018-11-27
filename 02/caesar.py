@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 
 def caesar(be, k, d, d2):
-    ki = ""
-    for x in be:
-        ki += d.get(str((int(d2.get(x))+int(k))%len(d)))
-    return ki
+    return ''.join(d.get(str((int(d2.get(x))+int(k))%len(d))) for x in be)
 
 d = {   '0' : 'A',
         '1' : 'B',
