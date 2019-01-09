@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-from collections import OrderedDict
-
 #sor: év#hónap#nap#óra#perc#-#hőmérséklet#páratartalom%
 meres = {}
 with open('meres.txt') as f:
