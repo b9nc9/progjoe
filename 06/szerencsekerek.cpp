@@ -29,8 +29,13 @@ int main(){
         int ossz = 0;
 
         char tipp = ' ';
-        while(betuk.size() != 0 && (r != 0 || r != 1)){
+        while(betuk.size() != 0){
                 r =  rand() % 13;
+                if(nyeremenyek[r] == 0){
+                        ossz = 0;
+                        break;
+                }
+                cout << nyeremenyek[r];
                 cout << "Tipp: ";
                 cin >> tipp;
                 ossz += nyeremenyek[r]*Szamol(tipp, szo);
